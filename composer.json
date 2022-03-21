@@ -1,0 +1,28 @@
+{
+    "name": "joaoluizsilva/sistema-mvc",
+    "description": "sistema",
+    "minimum_stability":"beta",
+    "license":"MIT",
+    "author":[
+        {
+            "name": "João Luiz Silva",
+            "email": "joaoluizsilva.jls@gmail.com",
+            "role": "Developer",
+            "homepage":"joaoluiz.com"
+    }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        
+    }
+}

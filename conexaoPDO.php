@@ -25,6 +25,7 @@ if (ENVIRONMENT == 'development'){
 global $pdo;
 try {
     $pdo = new PDO("mysql:dbname=".$config['dbname'].";host=".$config['host'],$config['dbuser'],$config['dbpassword']);
+    echo "Concexão com sucesso";
 
 } catch (PDOException $e) {
     echo "ERRO: ".$e->getMessage();
